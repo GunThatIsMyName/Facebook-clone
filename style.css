@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "variables.css";
+@import "status-bar.css";
+@import "search-bar.css";
+@import "navbar.css";
+@import "index.css";
+@import "watch.css";
+
+/* universal css */
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

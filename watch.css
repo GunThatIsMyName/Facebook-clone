@@ -1,0 +1,42 @@
+#watch-accounts{
+    display: flex;
+    max-width: 600px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.watch-account{
+    margin: 5px;
+}
+.watch-avatar{
+    width: 100%;
+    position: relative;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.watch-avatar__photo{
+    width: 80px;
+    height: 90px;
+}
+.watch-count{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background-color: var(--color-blue);
+    display: block;
+    padding: 5px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.watch-account__name{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#watch-post{
+    padding: 10px;
+}
+#watch-post .watch-posting{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+#search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20px 0px 20px;
+}
+.facebook-logo{
+    height: 50px;
+}
+.search-bar__column:last-child{
+    font-size: var(--font-2);
+}
+.search-bar__column:last-child i{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #F2F3F5;
+    border-radius: 50%;
+}
+
+.search-bar__column:last-child i:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+/* watch section */
+.search-bar__column .watch-search__title{
+    font-size: var(--font-1);
+}

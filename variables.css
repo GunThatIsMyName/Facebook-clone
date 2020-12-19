@@ -1,0 +1,14 @@
+:root{
+    /* color */
+    --color-blue: #1976ED;
+    --color-light-grey:#CDCFD5;
+    --color-live:#F64331;
+    --color-photo:#8BB65A;
+    --color-check:#ED136C;
+    --color-red:#F04234;
+    /* font-size: */
+    --font-1:30px;
+    --font-2:25px;
+    --font-3:20px;
+    --font-4:18px;
+}
