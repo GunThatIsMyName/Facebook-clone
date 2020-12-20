@@ -35,14 +35,13 @@
     border-left: 1px solid var(--color-light-grey);
 }
 
-
 .fa-video{
         color: var(--color-live);
     }
-    .fa-images{
+.fa-images{
         color: var(--color-photo);
     }
-    .fa-map-marker-alt{
+.fa-map-marker-alt{
         color: var(--color-check);
     }
 
