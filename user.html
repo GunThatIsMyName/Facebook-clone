@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>USER</title>
+</head>
+<body>
+    <!-- top status bar -->
+    <header id="status-bar">
+        <div class="status-bar__column">
+            <i class="fas fa-signal"></i>
+            <span class="status-bar__signal">ALDImobile</span>
+            <span>4G</span>
+        </div>
+        <div class="status-bar__column">
+            <SPAN>6:24 pm</SPAN>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-unlock-alt"></i>
+            <span>98%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </header>
+    <!-- user title bar -->
+    <section id="user-bar">
+        <div class="user-bar__column"></div>
+        <div class="user-bar__column">
+            <h1 class="user-title">
+                이준현
+            </h1>
+        </div>
+        <div class="user-bar__column">
+            <i class="fas fa-user-edit"></i>
+        </div>
+    </section>
+    <!-- main user part -->
+    <main id="main-user">
+        <div class="main-user__back">
+            <img src="img/background/back.jpg" alt="" class="user-back-photo">
+            <i class="fas fa-camera"></i>
+        </div>
+        <div class="main-user__avatar">
+            <img src="img/avatar/profile-4.jpg" alt="" class="user-avatar">
+            <i class="fas fa-camera"></i>
+            <div class="main-user-name">
+                <span>이준현</span>
+            </div>
+        </div>
+    </main>
+    <!-- btn form -->
+    <form action="" id="user-btns">
+        <button type="submit" class="user-btn btn-add">
+            <i class="fas fa-camera"></i> Add Story
+        </button>
+        <button type="submit" class="user-btn">
+            <i class="fas fa-cog"></i>
+        </button>
+        <button type="submit" class="user-btn">
+            <i class="fas fa-ellipsis-h"></i>
+        </button>
+    </form>
+    <!-- info section -->
+    <section id="user-info">
+        <div class="user-info__column">
+            <i class="fas fa-home"></i>
+            Lives in <span>Seoul</span>,<span>Korea</span>
+        </div>
+        <div class="user-info__column">
+            <i class="fas fa-heart"></i>
+            in a relationship with <span>Minji Kim</span>
+        </div>
+        <div class="user-info__column">
+            <i class="fas fa-heart"></i>
+            Joined on November 2014
+        </div>
+    </section>
+
+
+    <!-- footer fixed navbar -->
+    <navbar id="navbar">
+        <a href="index.html" class="navbar__item">
+            <i class="fas fa-home"></i>
+        </a>
+        <a href="watch.html" class="navbar__item">
+            <i class="fas fa-camera-retro">
+                <span class="number__count">9+</span>
+            </i>
+        </a>
+        <a href="market.html" class="navbar__item ">
+            <i class="fas fa-warehouse">
+                <span class="number__count">8</span>
+            </i>
+        </a>
+        <a href="user.html" class="navbar__item now__page">
+            <i class="fas fa-user"></i>
+        </a>
+        <a href="noti.html" class="navbar__item">
+            <i class="far fa-bell">
+                <span class="number__count">2</span>
+            </i>
+        </a>
+        <a href="more.html" class="navbar__item">
+            <i class="fas fa-bars"></i>
+        </a>
+    </navbar>
+</body>
+</html>

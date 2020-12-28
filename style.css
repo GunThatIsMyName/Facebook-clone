@@ -6,11 +6,21 @@
 @import "index.css";
 @import "watch.css";
 @import "market.css";
+@import "user.css";
+@import "noti.css";
+@import "more.css";
+@import "post.css";
+@import "search.css";
+@import "chats.css";
 
 /* universal css */
 body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+button{
+    outline: none;
+    border: none;
 }
 a{
     text-decoration: none;

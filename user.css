@@ -1,0 +1,108 @@
+#user-bar{
+    margin: 40px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 10px;
+}
+.user-bar__column{
+    width: 33%;
+    text-align: center;
+}
+.user-bar__column:last-child{
+    text-align: right;
+    font-size: var(--font-2);
+}
+.user-title{
+    font-size: var(--font-3);
+    font-weight: bold;
+}
+/* user back -part */
+#main-user{
+    margin: 20px auto;
+    max-width: 600px;
+}
+.main-user__back{
+    position: relative;
+}
+.user-back-photo{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.main-user__back i.fa-camera{
+    background-color: white;
+    padding: 7px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 5px;
+}
+.main-user__avatar{
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+.user-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+.main-user__avatar i.fa-camera{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color:var(--color-light-grey);
+    padding: 7px;
+    border-radius: 50%;
+}
+.main-user-name{
+    text-align: center;
+}
+.main-user-name span{
+    font-size: var(--font-2);
+    font-weight: bold;
+    text-align: center;
+}
+/* btn */
+#user-btns{
+    margin: 0px 20px;
+    display: flex;
+}
+.user-btn.btn-add{
+    flex-basis: 65%;
+    background-color: var(--color-blue);
+    color: white;
+}
+.user-btn{
+    flex-basis: 15%;
+    padding: 7px 0px;
+    font-size: var(--font-3);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#user-info{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 40px 10px;
+    padding: 20px 0px;
+    border-top: 2px solid #f3f3f3;
+}
+.user-info__column{
+    font-size: var(--font-3);
+    margin-bottom: 10px;
+}
+.user-info__column i{
+    opacity: 0.5;
+    margin-right: 10px;
+}
+.user-info__column span{
+    font-weight: bold;
+}

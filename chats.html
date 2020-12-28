@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>USER</title>
+</head>
+<body id="chats">
+    <!-- top status bar -->
+    <header id="status-bar">
+        <div class="status-bar__column">
+            <i class="fas fa-signal"></i>
+            <span class="status-bar__signal">ALDImobile</span>
+            <span>4G</span>
+        </div>
+        <div class="status-bar__column">
+            <SPAN>6:24 pm</SPAN>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-unlock-alt"></i>
+            <span>98%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </header>
+    <!-- user title bar -->
+    <section id="user-bar" class="chats-title">
+        <div class="user-bar__column">
+            <a href="index.html">
+                <div class="post-cancel">
+                    <img src="img/avatar/profile-1.jpg" alt="" class="chats-avatar">
+                </div>
+            </a>
+        </div>
+        <div class="user-bar__column">
+            <h1 class="chats-title">
+                Chats
+            </h1>
+        </div>
+        <div class="user-bar__column">
+            <div class="post-post">
+                <i class="fas fa-edit"></i>
+            </div>
+        </div>
+    </section>
+    <!-- chats searching bar -->
+    <section id="chats-searching">
+        <input type="search" name="searching bar" id="chats-searching" placeholder="Search">
+    </section>
+    <!-- story list -->
+    <section id="story-section">
+        <div class="chats-story-list">
+            <div class="story-item">
+                <div class="story-item__column">
+                    <img src="img/avatar/profile-1.jpg" alt="" class="story-preview">
+                </div>
+                <div class="story-item__column">
+                    <h1 class="story-arthour">
+                        your story
+                    </h1>
+                </div>
+            </div>
+            <div class="story-item">
+                <div class="story-item__column">
+                    <img src="img/avatar/profile-2.jpg" alt="" class="story-preview">
+                    <span class="story-active"></span>
+                </div>
+                <div class="story-item__column">
+                    <h1 class="story-arthour">
+                        김민지
+                    </h1>
+                </div>
+            </div>
+            <div class="story-item">
+                <div class="story-item__column">
+                    <img src="img/avatar/profile-3.jpg" alt="" class="story-preview new-story">
+                </div>
+                <div class="story-item__column">
+                    <h1 class="story-arthour">
+                        양대근
+                    </h1>
+                </div>
+            </div>
+            <div class="story-item">
+                <div class="story-item__column">
+                    <img src="img/avatar/profile-4.jpg" alt="" class="story-preview">
+                        <span class="story-active"></span>
+                    </img>
+                </div>
+                <div class="story-item__column">
+                    <h1 class="story-arthour">
+                        정서호
+                    </h1>
+                </div>
+            </div>
+            <div class="story-item">
+                <div class="story-item__column">
+                    <img src="img/avatar/profile-5.jpg" alt="" class="story-preview">
+                </div>
+                <div class="story-item__column">
+                    <h1 class="story-arthour">
+                        Kate
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main id="chatting">
+        <div class="chat-item">
+            <img src="img/avatar/profile-1.jpg" alt="" class="story-preview">
+            <div class="chat-description">
+                <div class="chat-title">
+                    김민지
+                </div>
+                <div class="chat-details">
+                    You sent an attachment. 21 Sep
+                </div>
+            </div>
+        </div>
+        <div class="chat-item">
+            <img src="img/avatar/profile-2.jpg" alt="" class="story-preview">
+            <div class="chat-description">
+                <div class="chat-title">
+                    박성민
+                </div>
+                <div class="chat-details">
+                    성민 sent an attachment. 15 Sep
+                </div>
+            </div>
+        </div>
+        <div class="chat-item">
+            <img src="img/avatar/profile-3.jpg" alt="" class="story-preview">
+                <span class="chat-active-time">54 m</span>
+            </img>
+            <div class="chat-description">
+                <div class="chat-title">
+                    양대근
+                </div>
+                <div class="chat-details">
+                    웅 ㅋㅋㅋㅋㅋ 10 Nov
+                </div>
+            </div>
+        </div>
+        <div class="chat-item">
+            <img src="img/avatar/profile-4.jpg" alt="" class="story-preview">
+            <div class="chat-description">
+                <div class="chat-title">
+                    정서호
+                </div>
+                <div class="chat-details">
+                    You: 그마저도 짬아저씨 짬똥먹 5 JUN
+                </div>
+            </div>
+        </div>
+        <div class="chat-item">
+            <img src="img/avatar/profile-5.jpg" alt="" class="story-preview">
+            <div class="chat-description">
+                <div class="chat-title">
+                    정장희
+                </div>
+                <div class="chat-details">
+                    ㅋㅋㅋㅋㅋㅋㅋ 17 AUG
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav id="chats-nav">
+        <div class="chats-nav__column">
+            <i class="fas fa-comment"></i>
+            <h1 class="chats-title">
+                Chats
+            </h1>
+        </div>
+        <div class="chats-nav__column">
+            <i class="fas fa-user-friends"></i>
+            <h1 class="chats-title">
+                People
+            </h1>
+        </div>
+    </nav>
+</body>
+</html>

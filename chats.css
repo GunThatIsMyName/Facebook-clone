@@ -1,0 +1,129 @@
+#chats{
+    background-color: #060606;
+    color: white;
+}
+#chats #status-bar{
+    background-color: #060606;
+    color: white;
+}
+
+#chats #user-bar{
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+.chats-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.chats-title .user-bar__column:first-child{
+    text-align: left;
+}
+.chats-title .user-bar__column .chats-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+#chats input[placeholder="Search"]{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: var(--color-light-grey);
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.chats-story-list{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 20px 0px;
+}
+.story-item__column{
+    text-align: center;
+}
+.story-preview{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.new-story{
+    border: 3px solid var(--color-blue);
+}
+.story-item__column{
+    position: relative;
+}
+.story-active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    background-color: greenyellow;
+    position: absolute;
+    bottom:  10px;
+    right: 10px;
+}
+/* main chatting */
+#chatting{
+    margin: 20px 20px 100px 20px;
+}
+#chatting .story-preview{
+    margin-right: 10px;
+}
+.chat-item{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+.chat-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.chat-details{
+    color: gray;
+    margin-left: 5px;
+}
+.chat-item:nth-child(3){
+    position: relative;
+}
+.chat-active-time{
+    padding: 3px 6px;
+    background-color: rgb(46, 43, 43);
+    color: green;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+}
+.chat-item:hover{
+    background-color: rgb(39, 39, 39);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/* chats nav */
+#chats-nav{
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgb(19, 19, 19);
+    z-index: 100;
+    text-align: center;
+}
+.chats-nav__column{
+    flex-basis: 50%;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.chats-nav__column i{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.chats-nav__column:last-child{
+    opacity: 0.5;
+}
